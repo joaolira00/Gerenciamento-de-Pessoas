@@ -1,0 +1,15 @@
+C:\GP\bin\Debug\net7.0\GP.exe
+C:\GP\bin\Debug\net7.0\GP.deps.json
+C:\GP\bin\Debug\net7.0\GP.runtimeconfig.json
+C:\GP\bin\Debug\net7.0\GP.dll
+C:\GP\bin\Debug\net7.0\GP.pdb
+C:\GP\obj\Debug\net7.0\GP.csproj.AssemblyReference.cache
+C:\GP\obj\Debug\net7.0\GP.GeneratedMSBuildEditorConfig.editorconfig
+C:\GP\obj\Debug\net7.0\GP.AssemblyInfoInputs.cache
+C:\GP\obj\Debug\net7.0\GP.AssemblyInfo.cs
+C:\GP\obj\Debug\net7.0\GP.csproj.CoreCompileInputs.cache
+C:\GP\obj\Debug\net7.0\GP.dll
+C:\GP\obj\Debug\net7.0\refint\GP.dll
+C:\GP\obj\Debug\net7.0\GP.pdb
+C:\GP\obj\Debug\net7.0\GP.genruntimeconfig.cache
+C:\GP\obj\Debug\net7.0\ref\GP.dll
