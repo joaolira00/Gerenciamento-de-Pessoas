@@ -18,7 +18,6 @@
             {
                 Console.WriteLine("Opção inválida, por favor escolha novamente.");
                 choice = Console.ReadLine();
-                Console.Clear();
             }
 
             //Insert name area
@@ -30,7 +29,7 @@
                     do
                     {
 
-                        Console.WriteLine("Digite seu nome de usuário:");
+                        Console.WriteLine("Digite o nome de usuário que você deseja adicionar:");
                         string? _name = Console.ReadLine();
 
                         while (_name == "")
@@ -41,7 +40,7 @@
 
                         User user = new User(_name);
                         UserList.Add(user);
-                        Console.WriteLine("Seu nome de usuário foi cadastrado com sucesso!\nDigite (s) para cadastrar outro usuário ou (n) para retornar ao menu principal.");
+                        Console.WriteLine("Seu nome de usuário foi cadastrado com sucesso!\nDigite (s) para cadastrar um novo usuário, caso contrário, aperte (n).");
                         SignNewUser = Console.ReadLine();
                         while (SignNewUser != "s" && SignNewUser != "S" && SignNewUser != "n" && SignNewUser != "N")
                         {
@@ -77,7 +76,7 @@
                         Console.WriteLine("{0}.{1}", UserSort, _user.name);
                         UserSort++;
                     }
-                    Console.WriteLine("Insira o número do usuário que você deseja alterar:");
+                    Console.WriteLine("\nInsira o número do usuário que você deseja alterar:");
                     int UserEdit = Convert.ToInt32(Console.ReadLine());
                     while (UserEdit >= UserList.Count)
                     {
